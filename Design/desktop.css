@@ -12,6 +12,8 @@ body {
         align-items: center;
     }
 
+    /* Conteúdo Header */
+
     .conteudo__inicial {
         display: flex;
         flex-direction: column;
@@ -38,6 +40,8 @@ body {
         font-weight: 400;
         text-align: center;
     }
+
+    /* Conteúdo Main */
 
     .conteudo__cards {
         width: 69.625rem;

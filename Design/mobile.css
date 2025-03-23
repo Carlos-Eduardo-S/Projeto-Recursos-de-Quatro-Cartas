@@ -12,6 +12,8 @@
         background-color: var(--back-white);
     }
 
+    /* Conteúdo Header */
+
     .conteudo__inicial {
         display: flex;
         flex-direction: column;
@@ -36,6 +38,9 @@
         font-weight: 400;
         text-align: center;
     }
+
+    /* Conteúdo Main */
+        /* Estilização dos Corpo dos Cartões */
 
     .cards__item-supervisor {
         width: 19.62rem;
@@ -77,6 +82,8 @@
         border-radius: 8px;
     }
 
+        /* Estilização das Cores da Parte Superior dos Cartões */
+
     .item__background-supervisor {
         height: 0.375rem;
         background-color: var(--cyan);
@@ -101,6 +108,8 @@
         border-radius: 8px 8px 0 0;
     }
 
+        /* Estilização dos Textos do Cartões */
+
     .item__titulo {
         font-size: 1.25rem;
         font-weight: 600;
@@ -114,6 +123,8 @@
         padding: 0rem 0rem 2rem 2rem;
         color: var(--grey-400);
     }
+
+        /* Estilização das Imagens dos Cartões */
 
     .cards__item-supervisor img {
         width: 4rem;
