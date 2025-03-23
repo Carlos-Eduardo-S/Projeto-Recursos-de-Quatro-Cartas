@@ -37,7 +37,37 @@
         text-align: center;
     }
 
-    .cards__item {
+    .cards__item-supervisor {
+        width: 19.62rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 1.875rem 2rem 1.938rem;
+        box-shadow: 0.5px 0.5px 3.5px var(--grey-400);
+        background-color: var(--white);
+        border-radius: 8px;
+    }
+
+    .cards__item-team {
+        width: 19.62rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 1.875rem 2rem 1.938rem;
+        box-shadow: 0.5px 0.5px 3.5px var(--grey-400);
+        background-color: var(--white);
+        border-radius: 8px;
+    }
+
+    .cards__item-karma {
+        width: 19.62rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 1.875rem 2rem 1.938rem;
+        box-shadow: 0.5px 0.5px 3.5px var(--grey-400);
+        background-color: var(--white);
+        border-radius: 8px;
+    }
+
+    .cards__item-calculator {
         width: 19.62rem;
         display: flex;
         flex-direction: column;
@@ -85,7 +115,22 @@
         color: var(--grey-400);
     }
 
-    .cards__item img {
+    .cards__item-supervisor img {
+        width: 4rem;
+        padding: 0rem 2rem 2.938rem 13.625rem;
+    }
+
+    .cards__item-team img {
+        width: 4rem;
+        padding: 0rem 2rem 2.938rem 13.625rem;
+    }
+
+    .cards__item-karma img {
+        width: 4rem;
+        padding: 0rem 2rem 2.938rem 13.625rem;
+    }
+
+    .cards__item-calculator img {
         width: 4rem;
         padding: 0rem 2rem 2.938rem 13.625rem;
     }
