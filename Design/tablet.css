@@ -7,7 +7,6 @@
     body {
         font-family: var(--poppins);
         font-size: 0.938rem;
-        width: 100vw;
         height: 65.375rem;
         background-color: var(--back-white);
         display: flex;
